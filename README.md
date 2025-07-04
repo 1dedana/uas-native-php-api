@@ -13,7 +13,7 @@
    ```
 
 ## 🔑 Superadmin
-- Email: admin@example.com
+- Email: danaimade41@gmail.com
 - Password: superadmin
 
 ## 🧪 Tes API (Gunakan Postman)
