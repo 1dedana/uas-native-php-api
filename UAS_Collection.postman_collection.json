@@ -1,0 +1,42 @@
+{
+  "info": {
+    "name": "UAS PHP Native API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Login",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:8000/auth/login.php"
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{ \"email\": \"admin@example.com\", \"password\": \"superadmin\" }"
+        }
+      }
+    },
+    {
+      "name": "Get All Students",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Authorization",
+            "value": "{{token}}"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:8000/students/index.php"
+        }
+      }
+    }
+  ]
+}
