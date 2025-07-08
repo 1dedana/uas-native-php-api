@@ -9,8 +9,8 @@ CREATE TABLE users (
 
 INSERT INTO users (name, email, password, role) VALUES (
   'Super Admin',
-  'admin@example.com',
-  '$2y$10$gGZfvXQWfFbDtvU14HBaEOp3AVah6rFNUCGtZL68kP9kxDGj2Abnq', -- hash dari "superadmin"
+  'danaimade41@gmail.com',
+  '1MDanaari*', -- hash dari "superadmin"
   'superadmin'
 );
 
