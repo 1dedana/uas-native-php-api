@@ -10,7 +10,7 @@ CREATE TABLE users (
 INSERT INTO users (name, email, password, role) VALUES (
   'Super Admin',
   'danaimade41@gmail.com',
-  '1MDanaari*', -- hash dari "superadmin"
+  '$2y$10$gGZfvXQWfFbDtvU14HBaEOp3AVah6rFNUCGtZL68kP9kxDGj2Abnq',
   'superadmin'
 );
 
