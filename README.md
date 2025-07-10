@@ -14,7 +14,7 @@
 
 ## 🔑 Superadmin
 - Email: danaimade41@gmail.com
-- Password: 1MDanaari*
+- Password: superadmin
 
 ## 🧪 Tes API (Gunakan Postman)
 - POST `/auth/login`
